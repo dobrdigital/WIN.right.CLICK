@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="WIN.right.CLICK — every Windows right-click menu in one window, no regedit">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#131735"/>
+      <stop offset="1" stop-color="#1c1233"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5b8cff"/>
+      <stop offset="1" stop-color="#b48cff"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="400" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="400" rx="24" fill="url(#grid)"/>
+  <circle cx="1080" cy="70" r="220" fill="#5b8cff" opacity="0.07"/>
+  <circle cx="150" cy="380" r="200" fill="#b48cff" opacity="0.05"/>
+
+  <g font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">
+    <text x="72" y="92" fill="#8ea0c8" font-size="20" letter-spacing="4">WINDOWS 8 · 10 · 11 · CONTEXT MENU MANAGER</text>
+    <text x="72" y="160" fill="#ffffff" font-size="58" font-weight="700">WIN.<tspan fill="url(#accent)">right</tspan>.CLICK</text>
+    <text x="72" y="206" fill="#c9d3ea" font-size="24">Every right-click menu on your PC in one window — no regedit.</text>
+    <text x="72" y="240" fill="#8ea0c8" font-size="20">Все меню правого клика Windows в одном окне — без regedit.</text>
+
+    <g transform="translate(72,280)">
+      <rect width="190" height="52" rx="26" fill="#2a1a22" stroke="#ff5a6e" stroke-opacity="0.6"/>
+      <text x="95" y="34" fill="#ff8a98" font-size="22" font-weight="600" text-anchor="middle">regedit × 5</text>
+      <path d="M210 26 H258 M246 14 L260 26 L246 38" fill="none" stroke="#c9d3ea" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="278" width="170" height="52" rx="26" fill="#161f3d" stroke="#5b8cff" stroke-opacity="0.9"/>
+      <text x="363" y="34" fill="#8fb0ff" font-size="22" font-weight="700" text-anchor="middle">1 window</text>
+      <text x="476" y="34" fill="#8ea0c8" font-size="19">HKCU + HKLM · one UAC · EN / RU</text>
+    </g>
+  </g>
+
+  <!-- context menu illustration -->
+  <g transform="translate(960,70)" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">
+    <rect x="6" y="8" width="240" height="262" rx="10" fill="#000000" opacity="0.35"/>
+    <rect x="0" y="0" width="240" height="262" rx="10" fill="#1d2130" stroke="#3a4468" stroke-width="2"/>
+    <text x="40" y="34" fill="#c9d3ea">Display settings</text>
+    <text x="40" y="66" fill="#c9d3ea">Personalize</text>
+    <line x1="12" y1="82" x2="228" y2="82" stroke="#3a4468"/>
+    <rect x="6" y="90" width="228" height="30" rx="6" fill="url(#accent)" opacity="0.25"/>
+    <text x="40" y="111" fill="#ffffff">Open PowerShell here</text>
+    <text x="40" y="143" fill="#c9d3ea">Tabby</text>
+    <text x="40" y="175" fill="#c9d3ea">Telegram</text>
+    <text x="40" y="207" fill="#c9d3ea">Vivaldi</text>
+    <line x1="12" y1="222" x2="228" y2="222" stroke="#3a4468"/>
+    <text x="40" y="249" fill="#8ea0c8">7-Zip</text>
+    <text x="220" y="249" fill="#8ea0c8" text-anchor="end">›</text>
+    <g fill="url(#accent)">
+      <rect x="16" y="22" width="14" height="14" rx="3"/>
+      <rect x="16" y="54" width="14" height="14" rx="3"/>
+      <rect x="16" y="99" width="14" height="14" rx="3"/>
+      <rect x="16" y="131" width="14" height="14" rx="3"/>
+      <rect x="16" y="163" width="14" height="14" rx="3"/>
+      <rect x="16" y="195" width="14" height="14" rx="3"/>
+      <rect x="16" y="237" width="14" height="14" rx="3" opacity="0.5"/>
+    </g>
+    <!-- cursor -->
+    <path d="M206 110 L206 138 L213 131 L218 143 L223 141 L218 129 L228 129 Z" fill="#ffffff" stroke="#0b1020" stroke-width="1.5"/>
+  </g>
+
+  <text x="1208" y="370" fill="#5d6d94" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" text-anchor="end" letter-spacing="2">REAILISM.DEV</text>
+</svg>
